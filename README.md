@@ -6,8 +6,8 @@ Proyect based on Python and sqlite to obtain, store and analyze FX data
 
 
 ```bash
-git clone ...
-cd ...
+git clone https://github.com/jesusllrr/FXPairs.git
+cd FXPairs
 
 python -m venv .venv
 source .venv/bin/activate
@@ -25,9 +25,11 @@ python .\downloadpairs.py
 python .\bbddraw.py
 
 #Execute querys and modify to change the examples
-python .\querys.py
+python .\queries.py
 ```
-EXPLICACION FUNCIONES
++ `downloadpairs`: Download Fx information and store it into a csv 
++ `bbddraw`: Verify information form csv, create database and store the information
++ `queries`: Example of possible queries 
 
 ## DATABASE SQUEMA
 
